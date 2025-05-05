@@ -24,7 +24,6 @@ int main(void)
   }
   else /* parent process is non-zero (child's pid) */
   { 
-    sleep(1);
     printf("parent: child pid = %d\n", pid);
     printf("parent: waiting for child\n");
     wait(NULL);
